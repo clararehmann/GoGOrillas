@@ -1,0 +1,62 @@
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key ^J          // species selection
+key Up Arrow    // select D. melanogaster
+key Up Arrow
+key ^J
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab> 
+key t           // upload ranked gene list
+key e
+key s
+key t
+key .
+key t
+key x
+key t
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key ^J          // all GO analyses
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key <tab>
+key ^J          // save as excel file
+key Up Arrow
+key Up Arrow
+key Up Arrow
+key Up Arrow
+key Up Arrow
+key Up Arrow
+key ^J          // start analysis
+key a           // save output to bookmark w/ input file appended to page name
+key d
+key <space>
+key t
+key e
+key s
+key t
+key .
+key t
+key x
+key t
+key ^J
+key q
+key y

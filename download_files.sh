@@ -10,6 +10,6 @@ runname=$1
 url=$(awk -F '"' "/${runname}/ {print \$2}" lynx_bookmarks.html)
 url=$(echo $url | sed 's/\/GOResults.html//')
 url=$(echo $url | sed 's/servlet\/GOrilla?id=/GOrilla\//')
-wget ${url}/GOPROCESS -O ${runname}_GO_process.xls
-wget ${url}/GOCOMPONENT -O ${runname}_GO_component.xls
-wget ${url}/GOFUNCTION -O ${runname}_GO_function.xls
+wget ${url}/GOPROCESS.xls -O ${runname}_GO_process.xls
+wget ${url}/GOCOMPONENT.xls -O ${runname}_GO_component.xls
+wget ${url}/GOFUNCTION.xls -O ${runname}_GO_function.xls
